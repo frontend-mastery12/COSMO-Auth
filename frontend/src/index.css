@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #fff;
+    /* background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.05), transparent),
+            radial-gradient(circle at 80% 80%, rgba(255,255,255,0.05), transparent),
+            #0a0a0a; */
+}
+
+
+.input {
+  @apply border border-zinc-800 bg-[#1e1e1ec2] px-5 py-2.5 my-2 rounded-[7px]
+  focus:outline-none focus:border-[#ffe600d3]
+  focus:shadow-[0_0_10px_#ffe6005a]
+  transition-all;
+}
+
+.input.error {
+  @apply border-[#ff6767] focus:shadow-[0_0_10px_#ff6767];
+}
+
+.social {
+  @apply w-full bg-[#1e1e1ec2] border border-zinc-800 rounded
+  flex justify-center items-center gap-2 py-3 cursor-pointer
+  transition-all hover:shadow-md hover:-translate-y-1;
+}
+
+@keyframes moveParticles {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -1000px; /* Moves the texture, not the div */
+  }
+}
+
+.loader {
+  aspect-ratio: 1;
+  --_g: no-repeat radial-gradient(farthest-side,#000 94%,#0000);
+  background:
+    var(--_g) 0    0,
+    var(--_g) 100% 0,
+    var(--_g) 100% 100%,
+    var(--_g) 0    100%;
+  background-size: 40% 40%;
+  animation: l38 .5s infinite; 
+}
+@keyframes l38 {
+  100% {background-position: 100% 0,100% 100%,0 100%,0 0}
+}
