@@ -166,13 +166,13 @@ Build a complete MERN Stack Authentication System from scratch with JWT, protect
 ---
 
 ## 📽 Watch the Tutorial
-🎥 **YouTube:** [Link coming soon — subscribe to get notified]
+🎥 **YouTube:** [https://youtu.be/h7kV6bBFQCE](https://youtu.be/h7kV6bBFQCE)
 
 ## 🌐 Live Preview
 🔗 **Netlify:** [https://cosmo-auth.vercel.app/auth](https://cosmo-auth.vercel.app/auth)
 
 ## 💰 Download Complete Source Code
-🔗 **Patreon:** [Link coming soon ]( — subscribe to get notified)
+🔗 **Patreon:** [https://www.patreon.com/posts/build-full-mern-153881456?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link](https://www.patreon.com/posts/build-full-mern-153881456?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 ---
 
 ## 👨‍💻 Author
